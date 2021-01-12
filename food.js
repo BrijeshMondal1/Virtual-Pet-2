@@ -77,7 +77,7 @@ class Food{
     //updating value of food in database and foodstock with food parameter
     updateFoodStock(){
         
-        dataBase.ref("foodStock").update({stock: this.foodStock});
+        dataBase.ref("foodStock").update({stock: foodS});
 
     }
 
